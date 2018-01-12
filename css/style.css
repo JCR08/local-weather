@@ -1,3 +1,20 @@
-
+body {
+  background: #161616;
+  font-family: 'Patrick Hand', cursive;
+  margin: 5% auto auto auto;
+  text-align: center; }
+  body section.weather {
+    background-color: #aeaeae;
+    border-radius: 2%;
+    font-size: 2rem;
+    margin: auto;
+    width: 25%; }
+    body section.weather h1 {
+      font-size: 3rem; }
+    body section.weather span#unit {
+      color: #ff383e;
+      cursor: pointer; }
+    body section.weather span#unit:hover {
+      color: #c01d22; }
 
 /*# sourceMappingURL=style.css.map */
