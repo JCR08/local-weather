@@ -55,7 +55,7 @@ function backgroundImage(data){
       "background-size" : "100%"})
       break;
     case 'Clouds':
-      $('body').css({'background': "url('/images/cloudy.jpg')",
+      $('body').css({'background': "url('images/cloudy.jpg')",
       "background-size" : "100%"})
       break;
     case 'Rain':
