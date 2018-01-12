@@ -16,5 +16,8 @@ body {
       cursor: pointer; }
     body section.weather span#unit:hover {
       color: #c01d22; }
+  @media (max-width: 992px) {
+    body section.weather {
+      width: 75%; } }
 
 /*# sourceMappingURL=style.css.map */

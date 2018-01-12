@@ -24,4 +24,10 @@ body{
       color: #c01d22;
     }
   }
+
+  @media (max-width: 992px){
+    section.weather{
+      width: 75%;
+    }
+  }
 }
