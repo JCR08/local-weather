@@ -51,31 +51,31 @@ function backgroundImage(data){
   var weather = data.weather[0].main;
   switch(weather){
     case 'Mist':
-      $('body').css({'background': "url('../images/mist.jpg')",
+      $('body').css({'background': "url('/images/mist.jpg')",
       "background-size" : "100%"})
       break;
     case 'Clouds':
-      $('body').css({'background': "url('../images/cloudy.jpg')",
+      $('body').css({'background': "url('/images/cloudy.jpg')",
       "background-size" : "100%"})
       break;
     case 'Rain':
-      $('body').css({'background': "url('../images/rain.jpg')",
+      $('body').css({'background': "url('/images/rain.jpg')",
       "background-size" : "100%"})
       break;
     case 'Snow':
-      $('body').css({'background': "url('../images/snow.jpg')",
+      $('body').css({'background': "url('/images/snow.jpg')",
       "background-size" : "100%"})
       break;
     case 'Thunderstorm':
-      $('body').css({'background': "url('../images/thunderstorm.jpg')",
+      $('body').css({'background': "url('/images/thunderstorm.jpg')",
       "background-size" : "100%"})
       break;
     case 'Drizzle':
-      $('body').css({'background': "url('../images/rain.jpg')",
+      $('body').css({'background': "url('/images/rain.jpg')",
       "background-size" : "100%"})
       break;
     case 'Clear':
-      $('body').css({'background': "url('../images/clear.jpg')",
+      $('body').css({'background': "url('/images/clear.jpg')",
       "background-size" : "100%"})
       break;
   }
