@@ -79,7 +79,7 @@ function backgroundImage(data){
       "background-size" : "100%"})
       break;
       case 'Fog':
-        $('body').css({'background': "url('images/fog.png')",
+        $('body').css({'background': "url('images/mist.png')",
         "background-size" : "100%"})
         break;
   }
